@@ -5,7 +5,7 @@ const = b"\xf8\x6f\x86\x83\xc3\x9c\x8b\x35\xf0\xc0\x87\x92\x2e\x41\x2b\x53"
 
 def rot_key():
     global const
-    const = const[-1:] + const[:-1]  # ruota di un byte a destra
+    const = const[-1:] + const[:-1]
 
 for _ in range(16):
     i = xor(i, const)
