@@ -65,7 +65,7 @@ def main():
     result = decode_file(filename)
     
     if result:
-        print("Messaggio decifrato:")
+        print("messaggio decifrato:")
         print(result)
     else:
         sys.exit(1)

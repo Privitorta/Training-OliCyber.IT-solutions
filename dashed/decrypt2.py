@@ -14,6 +14,6 @@ codice = "synt{CAESAR_ME!-l0h_T07_vG_e1tuG!}"
 # prova tutti gli shift da 1 a 25
 for s in range(1, 26):
     tentativo = decifra_cesare(codice, s)
-    print(f"Shift {s:2d}: {tentativo}")
+    print(f"shift {s:2d}: {tentativo}")
 
 # ora, dovremmo avere il risultato corretto

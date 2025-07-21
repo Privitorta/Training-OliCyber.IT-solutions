@@ -5,7 +5,7 @@ strings_output = extract_strings(binary_path)
 
 candidates = [s for s in strings_output if len(s) >= 40 and all(32 <= ord(c) < 127 for c in s)]
 
-print("\nStringhe candidate (Base85):")
+print("\nstringhe candidate (Base85):")
 for i, candidate in enumerate(candidates[:10]):
     print(f"{i+1}. {candidate}")
 

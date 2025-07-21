@@ -37,7 +37,7 @@ def calcola(line):
         return res_filtrato 
 
     except Exception as e:
-        return f"ERRORE: {str(e)}"
+        return f"errore: {str(e)}"
 
     with socket.create_connection((HOST, PORT)) as sock:
         buffer = ""
@@ -50,7 +50,7 @@ def calcola(line):
             for line in lines:
                 if re.match(r"^(SOMMA|DIFFERENZA|PRODOTTO|DIVISIONE_INTERA|POTENZA)", line):
                     risposta = calcola(line)
-                    print(f"→ Risposta: {risposta}")
+                    print(f"risposta: {risposta}")
                     sock.sendall((risposta + "\n").encode())
                     buffer = ""
                     break

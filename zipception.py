@@ -2,7 +2,7 @@ import zipfile
 import os
 
 contatore = 3000
-directory = r"C:\Users\Emma\Downloads\CTF\olimpiadi"
+directory = r"C:\Users\Emma\CTF"
 
 while contatore > 0:
     zip_file = f"flag{contatore}.zip"
@@ -10,9 +10,9 @@ while contatore > 0:
 
     try:
         with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-            print(f"Estraendo {zip_file}...")
+            print(f"sto estraendo {zip_file}...")
             zip_ref.extractall(directory)
     except Exception as e:
-        print(f"Errore durante l'estrazione di {zip_file}: {e}")
+        print(f"l'estrazione di {zip_file} non è andata a buon fine: {e}")
 
     contatore -= 1
