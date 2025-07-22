@@ -1,0 +1,7 @@
+░▒▓   …\CTF\byteflag   main ?   23:59 
+❯ exiftool flag.png > dati.txt
+
+
+░▒▓   …\CTF\byteflag   main ?   00:00 
+❯ strings flag.png | findstr /i flag
+flag{Hex1sntFunn1}
