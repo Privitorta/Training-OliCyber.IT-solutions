@@ -20,4 +20,4 @@ for i in range(4):
         key += chr(shift + ord('a'))
 
 print(f"chiave: {key}")
-print(f"flag: {privi_vigenere(flagcifrata, key)}")
+print(f"Flag: {privi_vigenere(flagcifrata, key)}")

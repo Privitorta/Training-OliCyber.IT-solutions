@@ -62,7 +62,7 @@ def privisolver():
             print(page_text)
             flag_match = re.search(r'flag\{[^}]+\}', page_text)
             if flag_match:
-                print(f"flag: {flag_match.group(0)}")
+                print(f"Flag: {flag_match.group(0)}")
             break
         else:
             print(f"sfida {test_count} risolta")

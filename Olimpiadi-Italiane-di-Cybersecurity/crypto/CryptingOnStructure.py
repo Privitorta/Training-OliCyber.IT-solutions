@@ -17,4 +17,4 @@ def privibacon(message):
 
 message = "AAAABAAAAAAAABAABBBAABBABABAAABAABABAABAABBBABAABBAAAAABAABABAABBBBAAA"
 baconresult = privibacon(message)
-print(f"flag: flag{{{baconresult}}}")
+print(f"Flag: flag{{{baconresult}}}")

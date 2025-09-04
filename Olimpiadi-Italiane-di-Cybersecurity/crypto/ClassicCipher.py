@@ -54,7 +54,7 @@ def privibruteforce(ciphertext):
         key = "".join([alphabet[start:], alphabet[0:start]])
         plain = prividecrypt(ciphertext, key)
         if plain.startswith("flag{") and plain.endswith("}"):
-            print(f"flag trovata: {plain}\nchiave iniziale shift {start}")
+            print(f"Flag: {plain}\nchiave iniziale shift {start}")
             return plain
 
 # non mio

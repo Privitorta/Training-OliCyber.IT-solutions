@@ -22,11 +22,6 @@ if __name__ == "__main__":
     query_cname_udp(server, port, domain)
 
 
-
-
-
-
-
 ''' tentativi prima di trovare la flag '''
 #def query_record(server_name, port, domain, rdatatype, use_tcp=False):
 #    try:

@@ -1,4 +1,4 @@
-from baity5 import extract_strings
+from Baity5 import extract_strings
 
 binary_path = r"C:\Users\Emma\Downloads\CTF\baity5\baity5"
 strings_output = extract_strings(binary_path)

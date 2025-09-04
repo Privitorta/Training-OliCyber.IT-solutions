@@ -1,5 +1,4 @@
-
-binary_path = r"C:\Users\Emma\Downloads\CTF\baity5\baity5"
+binary_path = r"/path/to/baity5"  # cambia questo percorso con il percorso corretto del file baity5
 
 def extract_strings(filepath, min_length=4):
     with open(filepath, "rb") as f:
