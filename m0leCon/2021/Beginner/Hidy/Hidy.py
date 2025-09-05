@@ -9,7 +9,7 @@ try:
 	with open('redacted.html', 'r', encoding='utf-8') as f:
 		text = f.read()
 except FileNotFoundError:
-	print("File 'redacted.html' non trovato. Assicurati che sia nella stessa cartella dello script.")
+	print("File 'redacted.html' non trovato")
 	exit(1)
 spans = [x[1] for x in re.findall(priviregex, text)]
 print('ptm{' + ''.join(spans) + '}')
