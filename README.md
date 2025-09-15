@@ -15,5 +15,5 @@ The repository is constantly updated, it's not complete. I solve and upload CTF 
 If you want to connect with me, these are my links:
 - [LinkedIn](https://www.linkedin.com/in/emmaprivitera/)
 - [Instagram](https://www.instagram.com/privitorta)
-- [E-mail](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=emma.privitera.505@gmail.com)
+- [E-mail](mailto:emma.privitera.505@gmail.com)
 - [Telegram](https://t.me/t3staocr0ce)
