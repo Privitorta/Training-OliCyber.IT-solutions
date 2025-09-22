@@ -1,0 +1,16 @@
+import requests
+
+session = requests.Session()
+response = session.post('http://web-11.challs.olicyber.it/login', json={'username': 'admin', 'password': 'admin'})
+csrf_token = response.json()['csrf']
+flag_pieces = []
+
+for i in range(4):
+    response = session.get(f'http://web-11.challs.olicyber.it/flag_piece?index={i}&csrf={csrf_token}')
+    csrf_token = response.json()['csrf']
+    flag_pieces.append(response.json()['flag_piece'])
+
+flag = ''.join(flag_pieces)
+print(flag)
+
+# flag{v3ry_53ri0u5_53ri35_0f_r3qu3575}
