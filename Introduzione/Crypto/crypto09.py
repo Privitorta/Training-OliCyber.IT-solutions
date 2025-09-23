@@ -1,4 +1,5 @@
 from pwn import *
+
 def extended_gcd(aa, bb):
     lastremainder, remainder = abs(aa), abs(bb)
     x, lastx, y, lasty = 0, 1, 1, 0

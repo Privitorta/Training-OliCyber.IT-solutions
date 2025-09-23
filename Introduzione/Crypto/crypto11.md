@@ -1,8 +1,7 @@
-se ti piace l'aritmetica modulare e teoria dei numeri è il tuo momento boss
+Se ti piace l'aritmetica modulare e teoria dei numeri è il tuo momento boss
 
+`nc crypto-11.challs.olicyber.it 30004`
 ```
-privitorta@PC-EMMA:~$ nc crypto-11.challs.olicyber.it 30004
-
 Salve! Questo è un tutorial su RSA.
 Riprendiamo ciò che hai visto a lezione.
 RSA è uno schema basato sull'aritmetica modulare.

@@ -1,8 +1,6 @@
 # Questo è un potente strumento che permette di trovare soluzioni di un sistema 
 # di equazioni modulari in cui tutti i moduli sono a due a due coprimi.
 
-# ncat crypto-10.challs.olicyber.it 30003
-
 from pwn import *
 from z3 import *
 import time

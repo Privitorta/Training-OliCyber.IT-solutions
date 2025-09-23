@@ -1,5 +1,4 @@
-# Uno dei problemi più utilizzati in crittografia asimmetrica 
-# è quello del logaritmo discreto.
+# Uno dei problemi più utilizzati in crittografia asimmetrica è quello del logaritmo discreto.
 # Uno dei protocolli più semplici che ne fanno uso è quello di Diffie-Hellman.
 
 from pwn import *
