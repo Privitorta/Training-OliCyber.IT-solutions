@@ -21,5 +21,3 @@ while queue:
     for link in [a['href'] for a in soup.find_all('a', href=True)]:
         full_link = f'http://web-16.challs.olicyber.it{link}' if link.startswith('/') else link
         if full_link not in visited: queue.append(full_link)
-
-# flag{5n00ping_4r0und}

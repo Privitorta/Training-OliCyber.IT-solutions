@@ -42,6 +42,4 @@ result = xor(password, key1)
 print("Risultato:", result.hex())
 ```
 
-Dopo aver inviato il risultato, riceverai la flag:
-
-**ptm{oh_n0_You_gu3ssEd_my_OTP}**
+Dopo aver inviato il risultato, riceverai la flag.

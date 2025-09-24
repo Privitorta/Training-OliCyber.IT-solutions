@@ -11,5 +11,3 @@ for span in spans_red:
     flag += span.text
 
 print(flag)
-
-# flag{donotrecommenddoingthisbyhand}

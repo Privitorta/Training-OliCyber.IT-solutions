@@ -46,5 +46,3 @@ function fetchHandler(e) {
 ```
 
 Ma ci sono altri modi.
-
-**ptm{H0w_d0_U_r3ad_4_d0wnlo4d3d_fil3?}**

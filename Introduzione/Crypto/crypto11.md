@@ -83,5 +83,3 @@ Da qui in avanti la strada che porta ad un'implementazione sicura di RSA è lung
 altre cose da dire, dettagli a cui stare attenti, casi limite da evitare. Sicuramente, ora sei in possesso delle basi
 che ti servono per affrontare challenge un attimino più complesse di questa. Good job! :) 
 ```
-
-**flag{RSA_n0n_f4_p1u_C0s1_p4Ur4}**

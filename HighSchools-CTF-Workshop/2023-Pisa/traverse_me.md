@@ -6,5 +6,3 @@ Il sito si apre su una galleria di 3 foto che si possono scorrere e aprire singo
 ```
 http://traverse.challs.olicyber.it/serve_file?filename=../../../flag.txt
 ```
-
-**flag{m3_and_7h3_boys_a77rav3rsando1a}**

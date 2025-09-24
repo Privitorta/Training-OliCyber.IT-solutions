@@ -9,5 +9,3 @@ try:
     print(response.text)
 except Exception as e:
     print("Errore nella richiesta:", e)
-
-# flag{g3t7ing_4l0ng}

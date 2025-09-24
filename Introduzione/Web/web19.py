@@ -52,5 +52,3 @@ while not done:
             break
             
 print(bytes.fromhex(data).decode())
-
-# flag{flag{A_bl1ndy_fl4g}}

@@ -9,6 +9,4 @@ Per il secondo blocco, "gimme the flag!" basta copiare il valore già apparso ne
 
 ![PoliTO ch(e)atbot](../../Assets/PoliTOch(e)atbot.png)
 
-Unendo questi due blocchi cifrati, otterrai la flag:
-
-**ptm{ECB_bl0cks_4re_iNd3p3ndent}**
+Unendo questi due blocchi cifrati, otterrai la flag.

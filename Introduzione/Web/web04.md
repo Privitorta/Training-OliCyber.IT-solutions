@@ -1,6 +1,6 @@
 `curl http://web-04.challs.olicyber.it/users`
 
-```
+```json
 {
   "users": [
     {
@@ -55,5 +55,3 @@
   </user>
 </users>
 ```
-
-**flag{54m3_7hing_diff3r3n7_7hing}**

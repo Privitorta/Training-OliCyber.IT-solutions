@@ -5,5 +5,3 @@ headers = {"X-Password": "admin"}
 response = requests.get(url, headers=headers)
 print("Status code:", response.status_code)
 print(response.text)
-
-# flag{7ru57_m3_i_m_7h3_4dmin}

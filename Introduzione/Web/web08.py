@@ -7,5 +7,3 @@ dati = {
 }
 risposta = requests.post(url, data=dati)
 print(risposta.text)
-
-# flag{53nding_d474_7h3_01d_w4y}

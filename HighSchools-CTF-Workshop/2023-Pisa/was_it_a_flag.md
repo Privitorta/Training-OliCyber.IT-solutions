@@ -31,5 +31,3 @@ Richiediamo la pagina nel modo che preferiamo, con curl il comando da eseguire Ã
 
 * Connection #0 to host was-it-a-flag.challs.olicyber.it left intact
 ```
-
-La flag Ã¨ proprio **flag{go_visit->http://cioe.deallora.de}**.

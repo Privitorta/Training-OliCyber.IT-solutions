@@ -21,5 +21,3 @@ for link in links:
             break
     except:
         pass
-
-# flag{5n00ping_4r0und}

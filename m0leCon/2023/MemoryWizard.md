@@ -6,5 +6,3 @@ Siamo dotati di una connessione TCP e un file .zip. Usando il tool di [Ghidra](h
 ![Ghidra](../../Assets/MemoryWizard.png)
 
 Se si esamina il comportamento con un debugger si scopre che la flag è salvata a un offset di 8 rispetto a quell'indirizzo. Con questa informazione si può risolvere la challenge.
-
-**ptm{n34r3r_7h4n_3xp3c73d}**

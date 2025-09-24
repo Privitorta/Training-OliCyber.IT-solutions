@@ -2,6 +2,4 @@
 
 Dobbiamo collegare due domini con uno strumento che analizzi il traffico dei visitatori, GTM; serve un sito non italiano che non faccia parte dell'associazione. Uso lo strumento [BuiltWith](https://builtwith.com) e cerco uno dei siti usati dall'A.C. Milan che potrebbe usare una GTM, ed è sufficiente quello [ufficiale](https://acmilan.com). Analizzo le relazioni, che mi fanno vedere TUTTI i tag che condivide un sito web con altri; in questa sezione "Relationship", sono presenti molti tag usati nel tempo dall'associazione. Quello che serve è **GTM-KGXM4F**, dato che è l'unico GTM; apro la pagina dedicata del GTM e viene mostrato lo storico dell'utilizzo nel tempo.
 
-Un sito si distingue dagli altri per il top level domain: **whipcake.ru**. Gli altri siti che hanno come dominio acmilan.com vanno ignorati, perchè la sfida chiede esplicitamente di trovare altri mercati. La flag è il nome del sito:
-
-**flag{whipcake.ru}**
+Un sito si distingue dagli altri per il top level domain: **whipcake.ru**. Gli altri siti che hanno come dominio acmilan.com vanno ignorati, perchè la sfida chiede esplicitamente di trovare altri mercati. La flag è il nome del sito in minuscolo.

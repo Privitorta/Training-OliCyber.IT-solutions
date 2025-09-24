@@ -18,5 +18,3 @@ Possiamo passare element[]=flag, così il confronto con triplo uguale darà fals
 Element: flag
 Content: flag{¿who_does_not_love_easy_access?}
 ```
-
-**flag{¿who_does_not_love_easy_access?}**

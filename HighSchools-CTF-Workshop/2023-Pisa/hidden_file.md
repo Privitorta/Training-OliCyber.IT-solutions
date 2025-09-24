@@ -10,6 +10,4 @@ Disallow: /39185d1b78d1cec390b777d9e82c01a3/a35f6c043cd0f215ab114bc7824e25e1.gif
 Disallow: /39185d1b78d1cec390b777d9e82c01a3/79df7045bba0bcb6303752558412f300.txt
 ```
 
-Il primo percorso porta ad una GIF di Dario Moccia che dice DEH PEFFORZA DEH PEFFORZA DEH PEFFORZA invece il secondo file porta alla flag:
-
-**flag{well_not_really_a_security_challenge_but_somewhere_you_need_to_start!}**
+Il primo percorso porta ad una GIF di Dario Moccia che dice DEH PEFFORZA DEH PEFFORZA DEH PEFFORZA invece il secondo file porta alla flag.

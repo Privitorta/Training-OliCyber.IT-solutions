@@ -4,7 +4,7 @@
 
 Ho filtrato il traffico SMTP per vedere i pacchetti che contengono "code" (codice di accesso) e ho trovato questo contenuto interessante tra i pochi risultati:
 
-```
+```html
 Line-based text data: text/html (21 lines)
     <div class=3D"moz-text-plain"><pre wrap=3D"" class=3D"moz-quote-pre">\r\n
     </pre><blockquote type=3D"cite"><pre wrap=3D"" class=3D"moz-quote-pre">----=\r\n
@@ -29,4 +29,13 @@ Line-based text data: text/html (21 lines)
     </pre></div>\r\n
 ```
 
-La riga in questione è quella che mi sembra codificata in base64, `SVRBU0VDe24wdF9zMF9zM2NyM3RfYjRzM30=3D`. La decodifico con lo script python.
+La riga in questione è quella che mi sembra codificata in base64, `SVRBU0VDe24wdF9zMF9zM2NyM3RfYjRzM30=3D`. La decodifico con uno script python:
+
+```python
+import base64
+# ho filtrato il traffico SMTP per vedere i pacchetti che contengono "code" (codice di accesso) e ho trovato questo codice
+code = "SVRBU0VDe24wdF9zMF9zM2NyM3RfYjRzM30=3D"
+decoded_bytes = base64.b64decode(code)
+decoded_str = decoded_bytes.decode('utf-8')
+print(decoded_str)
+```

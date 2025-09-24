@@ -54,5 +54,3 @@ while not done:
             break
 
 print(bytes.fromhex(data).decode())
-
-# flag{Dont_trus7_tim3}

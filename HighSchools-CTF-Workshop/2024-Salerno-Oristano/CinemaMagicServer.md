@@ -24,5 +24,3 @@ Content-Length: 10
 
 4r3_m4g1c}
 ```
-
-Risultato: **flag{http_str3ams_4r3_m4g1c}**

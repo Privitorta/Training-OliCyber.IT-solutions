@@ -49,9 +49,6 @@ function check_value(encodedString, plaintext) {
 
 La flag è codificata con **rot13** (uno shift di 13 lettere, comune nelle CTF). Nel JS c'è una funzione *customEncode* che viene usata per la cifratura della flag, ma è presente anche la funzione **customDecode**; chiamare tale funzione da console browser passando come input la flag criptata e lo shift 13 riceviamo la flag finale. Il comando è proprio:
 
-```
+```javascript
 customDecode("synt{jnvg_vf_guvf_pelcgb_be_jro}", 13)
-"flag{wait_is_this_crypto_or_web}"
 ```
-
-**flag{wait_is_this_crypto_or_web}**

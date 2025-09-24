@@ -12,5 +12,3 @@ for i in range(4):
 
 flag = ''.join(flag_pieces)
 print(flag)
-
-# flag{v3ry_53ri0u5_53ri35_0f_r3qu3575}
