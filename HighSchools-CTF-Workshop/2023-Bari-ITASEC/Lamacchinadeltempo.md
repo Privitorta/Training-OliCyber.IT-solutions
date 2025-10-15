@@ -1,0 +1,3 @@
+> Il losco individuo mi ha detto che è in grado di viaggiare nel tempo. Gli ho chiesto di aiutarmi a capire che cosa è cambiato in questa pagina web ma non lo ha fatto. Mi sapresti dare una mano?
+
+Già dal titolo "Macchina del tempo" capisco che devo andare su archive.org e analizzare tutti gli snapshot della pagina fornita nella descrizione della challenge. Proprio qui tra gli snapshot, ne si trova uno che contiene una pagina modificata con uno dei pannelli "Ritorno al passato" con descrizione "quindi la macchina del tempo esiste?"; basterà cliccare sul pannello per aprire una pagina pastebin contenente la flag in chiaro.

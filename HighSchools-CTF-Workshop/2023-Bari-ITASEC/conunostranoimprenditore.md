@@ -1,0 +1,3 @@
+> Dopo aver incontrato il losco individuo, mi ha condiviso il suo profilo Facebook e vorrei saperne di più. Sono sicuro che da qualche parte si nasconda un'informazione importante...
+
+Dal profilo in descrizione estendendo i post, cerca usando ctrl + F la keyword ITASEC per trovare la flag.

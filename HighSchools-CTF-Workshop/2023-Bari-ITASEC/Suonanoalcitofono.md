@@ -1,0 +1,3 @@
+> Il losco individuo mi ha inviato una foto dicendo di essersi iscritto ad un evento organizzato da un suo amico. Sei in grado di recuperare il dominio del sito dal quale si è registrato? Dopo aver trovato il dominio, aiutami a contattare l'admin.
+
+Sul monitor del computer c'è scritto **ITASEC23** e cercando online `ITASEC23` le pagine che escono come risultato presentano la stessa foto. Leggendo l'URL, scopriamo che il dominio è `itasec.it`; avendo il dominio alla mano, basta cercare i record WHOIS associati. Leggendo i record WHOIS notiamo che il nome dell'admin del dominio è *Paolo Ernesto Prinetto*.
